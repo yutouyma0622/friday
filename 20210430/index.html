@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <title>webサイトを作る上で必要なもの</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="site-title">webサイトを作る上で必要なもの</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2 class="main-title">HTMLについて</h2>
+
+            <ul class="nav">
+                <li class="nav-item"><a href="#h">hタグ</a></li>
+                <li class="nav-item"><a href="#p">pタグ</a></li>
+                <li class="nav-item"><a href="#ul">ul, ol, li リスト</a></li>
+              </ul>
+        
+              <section class="contents-item" id="h">
+                <h3 class="contents-item-title">hタグ 見出しを表すタグ</h3>
+                <p class="contents-item-text">見出しを表します、h1から順番にh6まで</p>
+              </section>
+        
+              <section class="contents-item" id="p">
+                <h3 class="contents-item-title">p 文章・段落</h3>
+                <p class="contents-item-text">文章や段落を表すタグ</p>
+              </section>
+        
+              <section class="contents-item" id="ul">
+                <h3 class="contents-item-title">ul, ol, li リスト</h3>
+                <p class="contents-item-text">リストを表すタグ</p>
+        
+                <ul>
+                    <li>リスト1</li>
+                    <li>リスト2</li>
+                    <li>リスト3</li>
+                    <li>
+                      <ul>
+                        <li>リスト1</li>
+                        <li>リスト2</li>
+                        <li>リスト3</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ol>
+                        <li>リスト1</li>
+                        <li>リスト2</li>
+                        <li>リスト3</li>
+                      </ol>
+                    </li>
+                  </ul>
+          
+                  <ol>
+                    <li>リスト1</li>
+                    <li>リスト2</li>
+                    <li>リスト3</li>
+                  </ol>
+                  <section class="contents-item-child"></section>
+                  <h4>ulリストの使用例</h4>
+                  <ul>
+                    <li>SNS
+                      <ul>
+                        <li><a href="https://twitter.com/kamem">twitter</a></li>
+                        <li><a href="https://github.com/kamem">github</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </section>
+              </section>
+        
+              <section class="contents-item">
+                <h3 class="contents-item-title">dl, dt, dd 定義付きリスト</h3>
+                <p class="contents-item-text">定義付きリスト</p>
+        
+                <dl>
+                  <dt>メニュ1</dt>
+                  <dd>メニュー1の説明</dd>
+        
+                  <dt>メニュ2</dt>
+                  <dd>メニュー2の説明</dd>
+                </dl>
+        
+                <section>
+                  <h4>dlリストの使用例</h4>
+                  <dl>
+                    <dt>SNS</dt>
+                    <dd><a href="https://twitter.com/kamem">twitter</a></dd>
+                    <dd><a href="https://github.com/kamem">github</a></dd>
+                  </dl>
+                </section>
+              </section>
+        
+              <section class="contents-item">
+                <h3 class="contents-item-title">emとstrong 強調、重要性</h3>
+                <p class="contents-item-text"><em>emが強調</em>を表す <strong>strongが強い重要性</strong>を表す</p>
+              </section>
+        
+              <section class="contents-item">
+                <h3 class="contents-item-title">small</h3>
+                <p class="contents-item-text">責・警告・法的規制・著作権・ライセンス要件などの注釈や細目を表す際に使う</p>
+              </section>
+        
+              <section class="contents-item">
+                <h3 class="contents-item-title">figure, figcaption</h3>
+                <p class="contents-item-text">画像を表すたぐ、テキストを画像にしたものは、figureでマークアップするのでわなく、適切なタグでマークアップする</p>
+                <figure>
+                  <img src="https://realsound.jp/wp-content/uploads/2021/01/20210113-sum.jpg"
+                    width="320" height="240" alt="夜の画像">
+                  <figcaption>乃木坂46</figcaption>
+                </figure>
+              </section>
+        
+              <section class="contents-item">
+                <h3 class="contents-item-title">div,span</h3>
+                <p class="contents-item-text">特に意味を表さない。なるべく使わないで一旦考える、ただどうしてもグループかしたり、見た目の調整に必要場合は使うかを考える</p>
+                <div>test</div>
+                <div>test
+                </div>
+                <span>test</span>
+                <span>test</span>
+              </section>
+            </article>
+          </main>
+        
+          <footer id="footer">
+            <p><small>&copy; copyright</small></p>
+          </footer>
+</body>
+</html>
