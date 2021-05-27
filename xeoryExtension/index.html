@@ -24,16 +24,72 @@
                     ５種類のカラーバリエーションを用意しています。</p>
 
             <h2>人気のある記事</h2>
-                <dl>
-                    <dt>No.1</dt>
-                    <dt>No.2</dt>
-                    <dt>NO.3</dt>
-                    <dt>No.4</dt>
-                    <dt>No.5</dt>
-                </dl>
+                <ul>
+                    <img src="素材/1.png" alt="画像1">
+                    <a href="">
+                        <p>カテゴリー＃1</p>
+                        <h3>テスト投稿</h3>
+                        <p>No.1</p>
+                    </a>
+                    <img src="素材/2.png" alt="画像2">
+                    <a href="">
+                        <p>カテゴリー＃2</p>
+                        <h3>テスト投稿</h3>
+                        <p>No.2</p>
+                    </a>
+                    <img src="素材/3.png" alt="画像3">
+                    <a href="">
+                        <p>カテゴリー＃3</p>
+                        <h3>テスト投稿</h3>
+                        <p>NO.3</p>
+                    </a>
+                    <img src="素材/4.jpg" alt="画像4">
+                    <a href="">
+                        <p>カテゴリー＃4</p>
+                        <h3>テスト投稿</h3>
+                        <p>No.4</p>
+                    </a>
+                    <img src="素材/5.png" alt="画像5">
+                    <a href="">
+                        <p>カテゴリー＃5</p>
+                        <h3>テスト投稿</h3>
+                        <p>No.5</p>
+                    </a>
+                </ul>
 
             <h2>最近の投稿</h2>
-                <p>テスト投稿</p>
+            <ul>
+                <img src="素材/1.png" alt="画像1">
+                <a href="">
+                    <p>カテゴリー＃1</p>
+                    <h3>テスト投稿</h3>
+                    <p>2014/10/24</p></a>
+                <img src="素材/2.png" alt="画像2">
+                <a href="">
+                    <p>カテゴリー＃2</p>
+                    <h3>テスト投稿</h3>
+                    <p>2014/10/24</p>
+                </a>
+                <img src="素材/3.png" alt="画像3">
+                <a href="">
+                    <p>カテゴリー＃3</p>
+                    <h3>テスト投稿</h3>
+                    <p>2014/10/24</p>
+                </a>
+                <img src="素材/4.jpg" alt="画像4">
+                <a href="">
+                    <p>カテゴリー＃4</p>
+                    <h3>テスト投稿</h3>
+                    <p>2014/10/24</p>
+                </a>
+                <img src="素材/5.png" alt="画像5">
+                <a href="">
+                    <p>カテゴリー＃5</p>
+                    <h3>テスト投稿</h3>
+                    <p>2014/10/24</p>
+                </a>
+            </ul>
+
 
             <h2>XeoryExtensionの特徴</h2>
                 <p>feature</p>
@@ -43,6 +99,7 @@
                             <p>Mobile Responsive</p>
                             <p>Xeory Extensionはレスポンシブデザインを採用しています。
                                 スマートフォンやタブレットなど各種デバイスで表示が最適化されます。</p>
+                            <a href="">詳しく見る</a>
                     </li>
 
                     <li>
@@ -50,6 +107,7 @@
                             <p>HTML5 Design</p>
                             <p>Xeory Extensionは最新のHTML5言語でデザイン及びコーディングがなされています。
                                 時代遅れのソースからは卒業しましょう。</p>
+                            <a href="">詳しく見る</a>
                     </li>
 
                     <li>
@@ -57,6 +115,7 @@
                             <p>Search Engine Optimized</p>
                             <p>Xeory ExtensionはGoogleのSEOガイドラインに可能な限り沿った構造になっています。
                                 必要なのは良質なコンテンツだけです。</p>
+                            <a href="">詳しく見る</a>
                     </li>
 
                     <li>
@@ -64,6 +123,7 @@
                             <p>Customizable</p>
                             <p>Xeory Extensionはカスタマイズフリーです。
                                 CSS, HTML, PHP の知識があれば自由にカスタマイズすることができます</p>
+                            <a href="">詳しく見る</a>
                     </li>
                 </ol>
 
@@ -72,9 +132,11 @@
 
                 <h3>Xeoryカスタマイズ</h3>
                     <p>Xeory Customize</p>
+                    <a href="">Xeoryカスタマイズ事例を見る</a>
 
                 <h3>コンサルティング</h3>
                     <p>Consulting</p>
+                    <a href="">コンサルティング事例を見る</a>
 
             <h2>会社紹介</h2>
                 <dl>
@@ -88,21 +150,29 @@
                 </dl>
             <h2>お問い合わせ</h2>
                 <p>inquiry</p>
-                <p>XeoryExtension</p>
+                <form method="POST" action="form.php"></form>
+                    <p><label for="namae">お名前</label>
+                        <input id="namae" type="text" name="name" required/>(必須)</p><br>
+                    <p><label for="email">メールアドレス</label>
+                        <input id="email" type="text" name="email" required/>(必須）</p><br>
+                    <p><label for="textarea">題名</label>
+                        <textarea  name="textarea" id="textarea" cols="40" rows="1" required></textarea></p><br>
+                    <p><label for="textarea">メッセージ本文</label>
+                        <textarea  name="textarea" id="textarea" cols="70" rows="20" required></textarea></p><br>
+             <h3>XeoryExtension</h3>
+                <h4>ブログコンテンツ</h4>
+                    <ul>
+                        <p><a href="">記事ページサンプル</a></p>
+                        <p><a href="">Extensionをダウンロード</a></p>
+                    </ul>
 
-            <h3>ブログコンテンツ</h3>
-                <ul>
-                    <li><a href="">記事ページサンプル</a></li>
-                    <li><a href="">Extensionをダウンロード</a></li>
-                </ul>
-
-            <h3>ソーシャルメディア</h3>
-                <ul>
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Google+</a></li>
-                    <li><a href="">Feedly</a></li>
-                </ul>
+                <h4>ソーシャルメディア</h4>
+                    <ul>
+                        <p><a href="">Twitter</a></p>
+                        <p><a href="">Facebook</a></p>
+                        <p><a href="">Google+</a></p>
+                        <p><a href="">Feedly</a></p>
+                    </ul>
         </article>
     </main>
 
